@@ -75,7 +75,7 @@ function init() {
     var guiContainer = document.getElementById('custom-gui');
     guiContainer.appendChild(threeGUI.domElement);
 
-    scene.fog = new THREE.Fog( 0x000000, 1500, 5000 );
+    scene.fog = new THREE.Fog( 0x660000, 1500, 5000 );
 
     particlesGroup.radius = 512;
     particlesGroup.positionY = 0;
