@@ -26,7 +26,7 @@ var PlexusParticles = function() {
         lineColor.setHSL(0.621212, 0.63, 1);
 
         var particleMaterial = new THREE.PointsMaterial( {
-            color: 0xFFFFFF,
+            color: 0xFF0000,
             size: 2,
             blending: THREE.AdditiveBlending,
             transparent: true,
